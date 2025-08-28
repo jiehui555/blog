@@ -128,13 +128,13 @@ params:
         icon: "email"
 
   # UI Components Control
-  showThemeSwitch: true      # Set to false to hide theme style switcher (palette icon)
+  showThemeSwitch: false      # Set to false to hide theme style switcher (palette icon)
   showDarkModeSwitch: true   # Set to false to hide dark mode switcher (sun/moon icon)
-  showLanguageSwitch: true   # Set to false to hide language switcher
+  showLanguageSwitch: false   # Set to false to hide language switcher
   languageSwitchMode: "dropdown"  # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
 
   # Header sticky effect
-  stickyHeader: true  # Set to true to enable sticky navigation bar
+  stickyHeader: false  # Set to true to enable sticky navigation bar
 
   # default color scheme
   colorScheme: "claude"
@@ -354,3 +354,7 @@ module:
   hugoVersion:
     extended: true
     min: 0.146.0
+
+caches:
+  images:
+    dir: :cacheDir/images
