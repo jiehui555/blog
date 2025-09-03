@@ -10,7 +10,7 @@ hasCJKLanguage: true
 enableEmoji: true
 
 permalinks:
-  posts: /posts/:slug/
+  posts: /posts/:year/:month/:slug
   pages: /:slug/
   
 # pagination
